@@ -1,24 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
+<body style="background-color: #EBEDEF;">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>google web page</title>
-    <link rel="stylesheet" href="styles.css">
-    <ul>
-    
-        <li><a href="default.asp">Home</a></li>
-        <li><a href="news.asp">News</a></li>
-        <li><a href="sports.asp">Sports</a></li>
-        <li><a href="Weather.asp">Weather</a></li>
-      </ul>
-    <img src="images/google-v2.png" alt="google logo" class="logo">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="styles.css">
+  <!-- Load icon library -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+  footer {
+    text-align: center;
+    padding: 3px;
+    background-color: darksalmon;
+    color:white;
+    margin-top: 15%;
+    margin-left:40%;
+    margin-right:40%;
+  }
+</style>
 </head>
 <body>
-    <input id="input" type="search" autocomplete="off" spellcheck="false" role="combobox" placeholder="Search Google or type a URL" aria-live="polite">
-</body>
+  
+    <ul>
+      <li><a href="Gmail.asp">Gmail</a></li>
+      <li><a href="Images.asp">Images</a></li>
+      <li><a href="Contacts.asp">Contact</a></li>
+    </ul>
+
+
+  <div class="logo">
+    <img src="/images/google-v3.png" alt="google logo" class="logo"> 
+  </div>
+
+ <!-- The form -->
+<form class="example" action="action_page.php">
+  <input type="text" placeholder="Search Google or type a URL" name="search">
+  <button type="submit"><i class="fa fa-search"></i></button>
+</form>
 <footer>
-    <p>Author: Kxng~Gio </p>
-  </footer>
+  <p> Author: Kxng~Gio</p>
+</footer>
+</body>
 </html>
